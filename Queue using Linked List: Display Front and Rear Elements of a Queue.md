@@ -28,9 +28,28 @@ To write a Python program to:
    - Display the front and rear elements with appropriate messages.
 
 ---
-## Program
-Add code here
+## Program:
+```python
+queue = []
 
-## Output
+queue.append('a')
+queue.append('b')
+queue.append('c')
+queue.append('d')
 
-## Result
+print("Initial Queue:")
+print(queue)
+
+front = queue[0]
+rear = queue[-1]
+
+print("Front element:", front)
+print("Rear element:", rear)
+```
+
+## Output:
+<img width="471" height="232" alt="image" src="https://github.com/user-attachments/assets/ad55dffa-9d83-45a7-bda9-feb1720055cf" />
+
+
+## Result:
+Thus,the program is executed successfully.
